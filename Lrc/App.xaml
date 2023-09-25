@@ -1,0 +1,10 @@
+﻿<Application x:Class="Lrc.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Lrc"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="Player" UriSource="Images/player.png" />
+        <BitmapImage x:Key="Winner" UriSource="Images/winner.png" />
+    </Application.Resources>
+</Application>
